@@ -64,7 +64,7 @@ python web_app.py
 
 ## Screenshots
 <img width="984" height="890" alt="image" src="https://github.com/user-attachments/assets/7133b336-bc6e-4d4f-b8f6-a38d3e173c9d" />
-<img width="973" height="843" alt="image" src="https://github.com/user-attachments/assets/88d13398-13fb-40ad-9a32-29330caf9e52" />
+<img width="984" height="890" alt="image" src="https://github.com/user-attachments/assets/88d13398-13fb-40ad-9a32-29330caf9e52" />
 
 
 ## Safety & Usage Warning ⚠️
