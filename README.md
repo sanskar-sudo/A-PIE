@@ -63,9 +63,8 @@ python web_app.py
 ```
 
 ## Screenshots
-<img width="1388" height="896" alt="image" src="https://github.com/user-attachments/assets/e819a03f-242d-4961-bb3e-b1c26d10acd0" />
-
-<img width="1527" height="931" alt="image" src="https://github.com/user-attachments/assets/43db4f9d-17a1-4fd9-a8cb-f85206dcbca7" />
+<img width="984" height="890" alt="image" src="https://github.com/user-attachments/assets/7133b336-bc6e-4d4f-b8f6-a38d3e173c9d" />
+<img width="1003" height="861" alt="image" src="https://github.com/user-attachments/assets/5ca36480-4bcd-463e-bbcf-b3271aca35c7" />
 
 
 ## Safety & Usage Warning ⚠️
