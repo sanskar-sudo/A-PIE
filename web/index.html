@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A-PIE</title>
+    <link rel="icon" href="/pie.png" type="image/png" />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <img src="/pie.png" alt="A-PIE" class="logo" />
+      <h1>A-PIE</h1>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>API Lookup</h2>
+        <form id="lookup-form">
+          <div class="row">
+            <input type="text" id="apiInput" placeholder="Enter WinAPIs (e.g., ShellExecuteA, CreateProcessW ...)" />
+            <button type="submit">Lookup</button>
+          </div>
+        </form>
+        <pre id="lookupResult" class="result"></pre>
+      </section>
+
+      <section class="card">
+        <h2>Analyze PE File</h2>
+        <form id="analyze-form">
+          <div class="row">
+            <input type="file" id="peFile" accept=".exe,.dll,.sys,.ocx,.scr,.cpl,.drv,.bin" />
+            <button type="submit">Analyze</button>
+          </div>
+          <div class="row options">
+            <label class="checkbox"><input type="checkbox" id="verboseAnalyze" /> Verbose</label>
+            <label class="checkbox"><input type="checkbox" id="exportResult" /> Export</label>
+          </div>
+        </form>
+        <pre id="analyzeResult" class="result"></pre>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>
+        Built with ♥. Data from <a href="https://malapi.io" target="_blank" rel="noreferrer">malapi.io</a>
+      </span>
+    </footer>
+
+    <script src="/static/app.js"></script>
+  </body>
+  </html>
+
+
